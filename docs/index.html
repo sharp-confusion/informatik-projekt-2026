@@ -2,11 +2,32 @@
 <html>
 <head>
     <title>Geometry Dash WP</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
-<body style="background: linear-gradient(to bottom, #0288D1, #003456); font-family: Arial, sans-serif; color: white;">
+<body>
+     <nav>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
 
-    <h1 style="font-size:3em; font-weight:bold;">Geometry Dash</h1>
+    <label for="menu-toggle" class="burger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <aside class="sidebar">
+      <a href="index.html">About</a>
+      <a href="creator.html">Creator</a>
+      <a href="install.html">Install</a>
+      <a href="mods.html">Mods</a>
+    </aside>
+
+    <label for="menu-toggle" class="overlay"></label>
+  </nav>
+
+ <main class="content">
+
+    <h1 id="title">Geometry Dash</h1>
     <p>Geometry Dash is a single button skill game.</p>
 
     <img src="./img/header.jpg" alt="Geometry Dash Logo" width="90%" />
@@ -75,6 +96,6 @@
             <td>Click to change gravity and teleport to the opposite side.</td>
         </tr>
     </table>
-
+</main>
 </body>
 </html>
