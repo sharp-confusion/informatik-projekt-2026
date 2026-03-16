@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Geometry Dash WP</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
-<body style="background: linear-gradient(to bottom, #0288D1, #003456); font-family: Arial, sans-serif; color: white;">
+<body>
+    <!-- Navbar -->
+    <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
 
-    <h1 style="font-size:3em; font-weight:bold;">Geometry Dash</h1>
-    <p>Geometry Dash is a single button skill game.</p>
+        <label for="menu-toggle" class="burger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
 
-    <img src="./img/header.jpg" alt="Geometry Dash Logo" width="90%" />
+        <aside class="sidebar">
+            <a href="index.html">About</a>
+            <a href="creator.html">Creator</a>
+            <a href="install.html">Install</a>
+            <a href="mods.html">Mods</a>
+        </aside>
 
-    <h2>Runs on:</h2>
-    
-    <p>
+        <label for="menu-toggle" class="overlay"></label>
+    </nav>
+
+    <main class="content">
+
+        <h1 id="title">Geometry Dash</h1>
+        <p>Geometry Dash is a single button skill game.</p>
+
+        <img src="./img/header.jpg" alt="Geometry Dash Logo" width="90%" />
+
+        <h2>Runs on:</h2>
+
+        <p>
         <ul>
             <li>Mobile</li>
             <li>Desktop</li>
             <li>Some consoles</li>
         </ul>
-    </p>
+        </p>
 
-    <h2>Gamemodes</h2>
-    <p>
+        <h2>Gamemodes</h2>
+        <p>
         <ol>
             <li>Cube</li>
             <li>Ship</li>
@@ -32,49 +55,50 @@
             <li>Robot</li>
             <li>Spider</li>
         </ol>
-    </p>
+        </p>
 
-    <h3>Controls</h3>
-    <p>
-        Single button press, tapping or holding the button.<br />
-        In platformer mode, you can also use the arrow keys to move left and right.<br />
-        However, on mobile they added arrow buttons on the sides of the screen.
-    </p>
+        <h3>Controls</h3>
+        <p>
+            Single button press, tapping or holding the button.<br />
+            In platformer mode, you can also use the arrow keys to move left and right.<br />
+            However, on mobile they added arrow buttons on the sides of the screen.
+        </p>
 
-    <table border="1" cellpadding="4" cellspacing="0">
-        <tr>
-            <th>Gamemode</th>
-            <th>Click / Hold</th>
-        </tr>
-        <tr>
-            <td>Cube</td>
-            <td>Click to jump, hold to keep jumping.</td>
-        </tr>
-        <tr>
-            <td>Ship</td>
-            <td>Click to go up, release to go down.</td>
-        </tr>
-        <tr>
-            <td>Ball</td>
-            <td>Click to flip gravity.</td>
-        </tr>
-        <tr>
-            <td>UFO</td>
-            <td>Click to jump even in mid-air.</td>
-        </tr>
-        <tr>
-            <td>Wave</td>
-            <td>Click to change direction up 45 degrees release to change back.</td>
-        </tr>
-        <tr>
-            <td>Robot</td>
-            <td>Click to jump, hold for a higher jump.</td>
-        </tr>
-        <tr>
-            <td>Spider</td>
-            <td>Click to change gravity and teleport to the opposite side.</td>
-        </tr>
-    </table>
-
+        <table border="1" cellpadding="4" cellspacing="0">
+            <tr>
+                <th>Gamemode</th>
+                <th>Click / Hold</th>
+            </tr>
+            <tr>
+                <td>Cube</td>
+                <td>Click to jump, hold to keep jumping.</td>
+            </tr>
+            <tr>
+                <td>Ship</td>
+                <td>Click to go up, release to go down.</td>
+            </tr>
+            <tr>
+                <td>Ball</td>
+                <td>Click to flip gravity.</td>
+            </tr>
+            <tr>
+                <td>UFO</td>
+                <td>Click to jump even in mid-air.</td>
+            </tr>
+            <tr>
+                <td>Wave</td>
+                <td>Click to change direction up 45 degrees release to change back.</td>
+            </tr>
+            <tr>
+                <td>Robot</td>
+                <td>Click to jump, hold for a higher jump.</td>
+            </tr>
+            <tr>
+                <td>Spider</td>
+                <td>Click to change gravity and teleport to the opposite side.</td>
+            </tr>
+        </table>
+    </main>
 </body>
+
 </html>
