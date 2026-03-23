@@ -15,71 +15,50 @@ Eure Website muss alle folgenden Inhalte enthalten und korrekt umsetzen:
 🔹 Pflichtbestandteile (möglichst viele müssen enthalten sein)
 
 
-1️⃣ Grundstruktur einer HTML-Seite
+- [x] 1️⃣ Grundstruktur einer HTML-Seite
+  - [x] `<!DOCTYPE html>`
+  - [x] `<html>, <head>, <body>`
+  - [x] Titel der Seite (`<title>`)
+  - [x] sinnvolle Überschriften (`<h1>–<h3>`)
+  - [x] Absätze (`<p>`)
 
-	• <!DOCTYPE html>
-	• <html>, <head>, <body>
-	• Titel der Seite (<title>)
-	• sinnvolle Überschriften (<h1>–<h3>)
-	• Absätze (<p>)
+- [x] 2️⃣ Guter HTML-Stil
+  - [x] saubere Einrückungen
+  - [x] sinnvolle Strukturierung
+  - [x] sprechende Dateinamen
+  - [x] Kommentare im Code (<!-- Kommentar -->)
+  - [x] keine unnötigen Tags
 
+- [x] 3️⃣ Bilder einbinden
+  - [x] mindestens 2 Bilder
+  - [x] Verwendung des `<img>`-Tags
+  - [x] sinnvolle alt-Texte
+  - [x] relative Pfadangaben
+  - [x] passende Bildgröße
 
+- [x] 4️⃣ Listen und Zeichencodierung
+  - [x] mindestens:
+    - [x] eine ungeordnete Liste (`<ul>`)
+    - [x] eine geordnete Liste (`<ol>`)
+  - [ ] mindestens ein Sonderzeichen (z. B. € © ä ö ü ß)
+  - [ ] korrekte Zeichencodierung (UTF-8 im `<meta>`-Tag)
 
-2️⃣ Guter HTML-Stil
+- [ ] 5️⃣ Links im World Wide Web
+  - [ ] ein externer Link (z. B. zu einer bekannten Website)
+  - [x] ein interner Link (z. B. zu einer zweiten eigenen HTML-Seite)
+  - [x] sinnvoller Linktext (nicht nur „hier klicken“)
 
-	• saubere Einrückungen
-	• sinnvolle Strukturierung
-	• sprechende Dateinamen
-	• Kommentare im Code (<!-- Kommentar -->)
-	• keine unnötigen Tags
+- [x] 6️⃣ Tabellen
+  - [x] mindestens eine Tabelle mit:
+    - [x] Tabellenüberschrift (`<th>`)
+    - [x] mindestens 3 Zeilen
+    - [x] mindestens 2 Spalten
+  - [x] sinnvolle Inhalte
 
-
-
-3️⃣ Bilder einbinden
-
-	• mindestens 2 Bilder
-	• Verwendung des <img>-Tags
-	• sinnvolle alt-Texte
-	• relative Pfadangaben
-	• passende Bildgröße
-
-
-
-4️⃣ Listen und Zeichencodierung
-
-	• mindestens:
-		○ eine ungeordnete Liste (<ul>)
-		○ eine geordnete Liste (<ol>)
-	• mindestens ein Sonderzeichen (z. B. € © ä ö ü ß)
-	• korrekte Zeichencodierung (UTF-8 im <meta>-Tag)
-
-
-
-5️⃣ Links im World Wide Web
-
-	• mindestens:
-		○ ein externer Link (z. B. zu einer bekannten Website)
-		○ ein interner Link (z. B. zu einer zweiten eigenen HTML-Seite)
-	• sinnvoller Linktext (nicht nur „hier klicken“)
-
-
-
-6️⃣ Tabellen
-
-	• mindestens eine Tabelle mit:
-		○ Tabellenüberschrift (<th>)
-		○ mindestens 3 Zeilen
-		○ mindestens 2 Spalten
-	• sinnvolle Inhalte
-
-
-
-7️⃣ Navigation (für eine 1 notwendig)
-
-	• Eine einfache Navigationsleiste
-	• Verlinkung zwischen mindestens 2 HTML-Seiten
-	• Navigation auf jeder Seite sichtbar
-
+- [x] 7️⃣ Navigation (für eine 1 notwendig)
+  - [x] Eine einfache Navigationsleiste
+  - [x] Verlinkung zwischen mindestens 2 HTML-Seiten
+  - [x] Navigation auf jeder Seite sichtbar
 
 
 🎯 Thema der Website

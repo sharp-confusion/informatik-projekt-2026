@@ -1,7 +1,14 @@
- html {
-     height: 100%;
- }
+/* style.css
 
+Enhält Styles für die Website.
+
+tagname: Style wird für alle tags angewendet, z.b. h1
+.classname: Style wird für alle tags mit der Klasse classname angewendet, z.b. .title
+#id: Style wird für das tag mit der id "id" angewendet, z.b. #title
+
+*/
+
+ /* kopiert von https://www.geometrydash.com/mainstyle.css um ein BG desing zu haben. */
  body {
      background: linear-gradient(to bottom, #0288D1, #003456);
      background-repeat: no-repeat;
@@ -12,6 +19,7 @@
      color: white;
  }
 
+ /* formatiert den titel auf der seite */
  #title {
      font-size: 3em;
      font-weight: bold;
@@ -73,6 +81,10 @@
      background: #222;
  }
 
+  .sidebar a:visited {
+     color: white;
+ }
+
  .overlay {
      position: fixed;
      inset: 0;
@@ -107,5 +119,14 @@
  }
 
  .content {
-     padding: 80px 20px 20px;
+     padding: 67px 67px 67px;
+ }
+
+ a {
+     color: #dc6464;
+     text-decoration: none;
+ }
+
+ a:visited {
+     color: #e11b1b;
  }
