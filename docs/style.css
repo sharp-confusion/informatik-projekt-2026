@@ -81,6 +81,10 @@ tagname: Style wird für alle tags angewendet, z.b. h1
      background: #222;
  }
 
+  .sidebar a:visited {
+     color: white;
+ }
+
  .overlay {
      position: fixed;
      inset: 0;
@@ -116,4 +120,13 @@ tagname: Style wird für alle tags angewendet, z.b. h1
 
  .content {
      padding: 67px 67px 67px;
+ }
+
+ a {
+     color: #dc6464;
+     text-decoration: none;
+ }
+
+ a:visited {
+     color: #e11b1b;
  }
