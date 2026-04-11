@@ -12,8 +12,7 @@ Eure Website muss alle folgenden Inhalte enthalten und korrekt umsetzen:
 
 
 
-🔹 Pflichtbestandteile (möglichst viele müssen enthalten sein)
-
+🔹 Pflichtbestandteile (alles erledigt)
 
 - [x] 1️⃣ Grundstruktur einer HTML-Seite
   - [x] `<!DOCTYPE html>`
@@ -40,11 +39,11 @@ Eure Website muss alle folgenden Inhalte enthalten und korrekt umsetzen:
   - [x] mindestens:
     - [x] eine ungeordnete Liste (`<ul>`)
     - [x] eine geordnete Liste (`<ol>`)
-  - [ ] mindestens ein Sonderzeichen (z. B. € © ä ö ü ß)
-  - [ ] korrekte Zeichencodierung (UTF-8 im `<meta>`-Tag)
+  - [x] mindestens ein Sonderzeichen (z. B. € © ä ö ü ß)
+  - [x] korrekte Zeichencodierung (UTF-8 im `<meta>`-Tag)
 
-- [ ] 5️⃣ Links im World Wide Web
-  - [ ] ein externer Link (z. B. zu einer bekannten Website)
+- [x] 5️⃣ Links im World Wide Web
+  - [x] ein externer Link (z. B. zu einer bekannten Website)
   - [x] ein interner Link (z. B. zu einer zweiten eigenen HTML-Seite)
   - [x] sinnvoller Linktext (nicht nur „hier klicken“)
 
@@ -59,6 +58,17 @@ Eure Website muss alle folgenden Inhalte enthalten und korrekt umsetzen:
   - [x] Eine einfache Navigationsleiste
   - [x] Verlinkung zwischen mindestens 2 HTML-Seiten
   - [x] Navigation auf jeder Seite sichtbar
+
+
+📁 Verwendete Dateien in `docs/`
+
+- `docs/index.html`
+- `docs/creator.html`
+- `docs/install.html`
+- `docs/mods.html`
+- `docs/more.html`
+- `docs/style.css`
+- `docs/img/`
 
 
 🎯 Thema der Website
