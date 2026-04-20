@@ -8,7 +8,7 @@
   - Jede Seite befindet sich im Ordner `docs/`.
   - Die Navigation verbindet die Seiten miteinander.
   - Für das Design habe ich die CSS-Datei `docs/style.css` erstellt, damit die Formatierung auf allen Seiten gleich aussieht.
-    - `index.html`: Startseite mit Informationen zur Website.
+    - `index.html`: Startseite mit Informationen zur Website, einer Tabelle zu den verschiedenen gamemodes und was ein click macht und listen über die gamemodes und welche geräte das spiel supporten.
     - `creator.html`: Seite über den Ersteller / das Projekt.
     - `install.html`: Installationsseite mit Steam-Preis in Euro und Link zu dem steam spiel.
     - `mods.html`: Seite zu Mods mit link zu Geode.
